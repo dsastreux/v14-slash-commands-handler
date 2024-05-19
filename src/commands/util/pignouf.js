@@ -1,10 +1,6 @@
 const {EmbedBuilder, PermissionsBitField} = require('discord.js');
 const {SlashCommandBuilder} = require('@discordjs/builders');
 exports.commandBase = {
-	prefixData: {
-		name: 'pignouf',
-		aliases: ['😏😏😏'],
-	},
 	slashData: new SlashCommandBuilder()
 		.setName('pignouf')
 		.setDescription('😏😏😏')
